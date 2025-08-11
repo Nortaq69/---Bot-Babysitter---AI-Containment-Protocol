@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BotBabysitter",
+			"Path": "..\\Source\\BotBabysitter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BotBabysitterEditor",
+			"Path": "..\\Source\\BotBabysitterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

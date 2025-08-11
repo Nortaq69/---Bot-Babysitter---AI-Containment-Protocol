@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BotBabysitter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BotBabysitter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BotBabysitterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Implementation_Guide.md" />
+    <None Include="..\..\ProjectSetup.md" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Source\BotBabysitter">
+      <UniqueIdentifier>{C4C8491C-5C2C-32DF-B5A8-15E2F1D82E7D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BotBabysitter\BotBabysitter.Build.cs">
+      <Filter>Source\BotBabysitter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BotBabysitter\BotBabysitter.cpp">
+      <Filter>Source\BotBabysitter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BotBabysitter\BotBabysitter.h">
+      <Filter>Source\BotBabysitter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
